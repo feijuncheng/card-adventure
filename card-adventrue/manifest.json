@@ -8,11 +8,21 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/entity/cards/Card.js",
+		"bin-debug/entity/cards/Health.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
-		"bin-debug/util/BaseButton.js"
+		"bin-debug/entity/Hero.js",
+		"bin-debug/entity/cards/Attack.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/enum/Card_Type.js",
+		"bin-debug/enum/Hero_Type.js",
+		"bin-debug/scene/SelectScene.js",
+		"bin-debug/scene/StartScene.js",
+		"bin-debug/util/BaseButton.js",
+		"bin-debug/util/CardLibrary.js",
+		"bin-debug/util/Director.js"
 	]
 }

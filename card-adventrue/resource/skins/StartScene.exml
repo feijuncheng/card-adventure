@@ -1,0 +1,4 @@
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="100" minWidth="300"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1136" width="640">
+	<e:Image id="bg_main" width="640" height="1136" x="0" y="0" source="bg_jpg" fillMode="scale"/>
+</e:Skin>

@@ -8,13 +8,21 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var BaseButton = (function (_super) {
-    __extends(BaseButton, _super);
-    function BaseButton() {
+/**
+ * 生命恢复牌
+ */
+var Health = (function (_super) {
+    __extends(Health, _super);
+    function Health() {
         var _this = _super.call(this) || this;
-        _this.skinName = "resource/skins/ButtonSkin_p.exml";
+        _this.type = Card_Type.Health;
+        _this.actionCost = 1;
+        _this.levelMax = 9;
+        _this.name = 'Health';
+        _this.description = 'a test card "Health"';
+        _this.health = 5;
         return _this;
     }
-    return BaseButton;
-}(eui.Button));
-__reflect(BaseButton.prototype, "BaseButton");
+    return Health;
+}(Card));
+__reflect(Health.prototype, "Health");
